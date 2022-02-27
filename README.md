@@ -12,7 +12,20 @@ see the [source](https://cs.chromium.org/chromium/src/components/neterror/resour
 
 ![chrome offline game cast](assets/screenshot.gif).
 
+## Supported browsers
+| Name              | Version | Notes                                             |
+| ----------------- | ------- | ------------------------------------------------- |
+| Chromium / Chrome | last 10 | Full support                                      |
+| Firefox           | 61+     | Full support (fastest local analysis since FF 79) |
+| Opera             | 55+     | Reasonable support                                |
+| Safari            | 11.1+   | Reasonable support                                |
+| Edge              | 17+     | Reasonable support                                |
+
+
+
+
 #Credits 
+
 
 [![specialthanksto](https://img.shields.io/badge/special-thanks-ff69b4.svg)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
 [![GitHub contributors](https://contrib.rocks/image?repo=DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
