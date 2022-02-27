@@ -1,3 +1,4 @@
+# [DinoGame](https://github.com/DakshCodess/DinoGame)
 [![test](https://img.shields.io/badge/test-passing-lightdarkgreen.svg)](https://dakshcodess.github.io/DinoGame/) 
 [![GitHub issues](https://img.shields.io/github/issues/DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/issues)  [![Github pull](https://img.shields.io/github/issues-pr/DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/pull)
 
