@@ -2,6 +2,7 @@
 [![test](https://img.shields.io/badge/test-passing-lightdarkgreen.svg)](https://dakshcodess.github.io/DinoGame/) 
 [![GitHub issues](https://img.shields.io/github/issues/DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/issues)  [![Github pull](https://img.shields.io/github/issues-pr/DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/pull)
 [![CodeQL](https://github.com/DakshCodess/DinoGame/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/codeql-analysis.yml)
+[![Dependency Review](https://github.com/DakshCodess/DinoGame/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/dependency-review.yml)
 ## DinoGame
 
 the DinoGame game extracted from chrome offline error page.
