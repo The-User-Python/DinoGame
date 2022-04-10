@@ -7,7 +7,7 @@
 ##
 ## DinoGame
 
-the DinoGame game extracted from chrome offline error page.
+the DinoGame game extracted from chrome offline error page.added offline page too . now you can play offline too after turning off ur internet you can try to refresh it wont show error anymore.
 
 see the [source](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7) from chromium
 
