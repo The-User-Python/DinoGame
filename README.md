@@ -28,5 +28,5 @@ see the [source](https://cs.chromium.org/chromium/src/components/neterror/resour
 #Credits 
 
 
-[![specialthanksto](https://img.shields.io/badge/special-thanks-ff69b4.svg)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
+[![ProjectContributor](https://img.shields.io/badge/project-contributor-ff69b4.svg)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
 [![GitHub contributors](https://contrib.rocks/image?repo=DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
