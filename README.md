@@ -29,7 +29,7 @@ see the [source](https://cs.chromium.org/chromium/src/components/neterror/resour
 
 
 
-#Credits 
+## Credits 
 
 
 [![ProjectContributor](https://img.shields.io/badge/project-contributor-ff69b4.svg)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
