@@ -12,7 +12,8 @@ currently being supported with security updates.
 | 4.0.x   | :white_check_mark: |
 | 4.0   | :x:                |
 | 8.8.x | 🤍
-| 4.7.x | :white_check_mark:|  
+| 4.7.x | :white_check_mark:|
+| 5.2.5 | ✅
 ## Reporting a Vulnerability
 
 Use this section to tell people how to report a vulnerability.
