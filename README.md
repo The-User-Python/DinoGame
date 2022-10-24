@@ -5,7 +5,8 @@
 [![Dependency Review](https://github.com/DakshCodess/DinoGame/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/dependency-review.yml)
 [![CI](https://github.com/DakshCodess/DinoGame/actions/workflows/main.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/main.yml)
 [![Mark stale issues and pull requests](https://github.com/DakshCodess/DinoGame/actions/workflows/stale.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/stale.yml)
-[![pages-build-deployment](https://github.com/DakshCodess/DinoGame/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/pages/pages-build-deployment) [![Deploy static content to Pages](https://github.com/DakshCodess/DinoGame/actions/workflows/static.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/static.yml) 
+[![pages-build-deployment](https://github.com/DakshCodess/DinoGame/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/pages/pages-build-deployment) [![Deploy static content to Pages](https://github.com/DakshCodess/DinoGame/actions/workflows/static.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/static.yml)  
+[![Jekyll site CI](https://github.com/DakshCodess/DinoGame/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/DakshCodess/DinoGame/actions/workflows/jekyll-docker.yml)
 ##
 ## DinoGame
 
