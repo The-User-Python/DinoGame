@@ -11,7 +11,7 @@ currently being supported with security updates.
 | 5.0.x   | :x:                |
 | 4.0.x   | :white_check_mark: |
 | 4.0   | :x:                |
-| 8.8.x | 🤍
+| 8.8.x | Not Known
 | 4.7.x | :white_check_mark:|
 | 5.2.5 | ✅
 ## Reporting a Vulnerability
