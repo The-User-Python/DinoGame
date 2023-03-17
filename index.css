@@ -5,7 +5,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 150%;
   height: 100%;
 }
 
@@ -28,27 +28,27 @@ html, body {
 /* Offline page */
 
 .offline .interstitial-wrapper {
-  color: #6b2b2b;
+  color: #6b3b3b;
   font-size: 1em;
   line-height: 1.55;
   margin: 0 auto;
-  max-width: 600px;
-  padding-top: 100px;
+  max-width: 650px;
+  padding-top: 150px;
   width: 100%;
 }
 
 .offline .runner-container {
   height: 150px;
-  max-width: 600px;
+  max-width: 650px;
   overflow: hidden;
   position: absolute;
-  top: 35px;
+  top: 45px;
   width: 44px;
 }
 
 .offline .runner-canvas {
   height: 150px;
-  max-width: 600px;
+  max-width: 650px;
   opacity: 1;
   overflow: hidden;
   position: absolute;
@@ -70,7 +70,7 @@ html, body {
   display: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
     float: none;
   }
@@ -82,12 +82,12 @@ html, body {
   }
 }
 
-@media (max-height: 350px) {
+@media (max-height: 390px) {
   h1 {
     margin: 0 0 15px;
   }
   .icon-offline {
-    margin: 0 0 10px;
+    margin: 0 0 40px;
   }
   .interstitial-wrapper {
     margin-top: 5%;
@@ -97,7 +97,7 @@ html, body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 900px) and (max-width: 736px) and (orientation: landscape) {
   .offline .interstitial-wrapper {
     margin-left: 0;
     margin-right: 0;
