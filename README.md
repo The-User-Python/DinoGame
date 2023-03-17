@@ -26,7 +26,7 @@ see the [source](https://cs.chromium.org/chromium/src/components/neterror/resour
 | Firefox           | 61+     | Full support (fastest local analysis since FF 79) |
 | Opera             | 55+     | Reasonable support                                |
 | Safari            | 11.1+   | Reasonable support                                |
-| Edge              | 17+     | Reasonable support                                |
+| Edge Microsoft    | 8.12+   | Unwanted Support (Included)                       |
 
 
 
@@ -34,5 +34,5 @@ see the [source](https://cs.chromium.org/chromium/src/components/neterror/resour
 ## Credits 
 
 
-[![ProjectContributor](https://img.shields.io/badge/project-contributor-ff69b4.svg)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
-[![GitHub contributors](https://contrib.rocks/image?repo=DakshCodess/DinoGame)](https://github.com/DakshCodess/DinoGame/graphs/contributors)
+[![ProjectContributor](https://img.shields.io/badge/project-contributor-ff69b4.svg)](https://github.com/The-User-Python/DinoGame/graphs/contributors)
+[![GitHub contributors](https://contrib.rocks/image?repo=The-User-Python/DinoGame)](https://github.com/The-User-Python/DinoGame/graphs/contributors)
