@@ -1,4 +1,8 @@
-/* Reset CSS */
+/* Copyright 2013 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+/* Resetting default styles for HTML and body */
 html, body {
   padding: 0;
   margin: 0;
@@ -6,13 +10,13 @@ html, body {
   height: 100%;
 }
 
-/* Common styles for icons */
+/* Styling for reusable icon class */
 .icon {
   user-select: none;
   display: inline-block;
 }
 
-/* Online icon */
+/* Online status icon with responsive image set */
 .icon-online {
   content: -webkit-image-set(
     url(assets/default_100_percent/100-error-online.png) 1x,
@@ -21,12 +25,13 @@ html, body {
   position: relative;
 }
 
-/* Hidden class */
+/* Utility class to hide elements */
 .hidden {
   display: none;
 }
 
-/* Offline page styles */
+/* Styling for the offline page */
+
 .offline .interstitial-wrapper {
   color: #6b3b3b;
   font-size: 1.2em;
@@ -49,6 +54,9 @@ html, body {
 
 .offline .runner-canvas {
   opacity: 0.9;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
   z-index: 2;
 }
 
@@ -62,7 +70,7 @@ html, body {
   z-index: 1;
 }
 
-/* Offline resources */
+/* Offline resources display */
 #offline-resources {
   display: block;
 }
@@ -74,7 +82,7 @@ html, body {
     float: left;
   }
 
-  /* Snackbar styles */
+  /* Snackbar styling for mobile view */
   .snackbar {
     position: fixed;
     left: 0;
