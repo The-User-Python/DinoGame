@@ -5,18 +5,20 @@
 html, body {
   padding: 0;
   margin: 0;
-  width: 100%; /* Adjusted to 100% */
+  width: 100%;
   height: 100%;
 }
 
 .icon {
-  -webkit-user-select: none;
   user-select: none;
   display: inline-block;
 }
 
 .icon-online {
-  content: -webkit-image-set( url(assets/default_100_percent/100-error-online.png) 1x, url(assets/default_200_percent/200-error-online.png) 2x); /* Updated online icon */
+  content: -webkit-image-set(
+    url(assets/default_100_percent/100-error-online.png) 1x,
+    url(assets/default_200_percent/200-error-online.png) 2x
+  );
   position: relative;
 }
 
@@ -28,27 +30,27 @@ html, body {
 
 .offline .interstitial-wrapper {
   color: #6b3b3b;
-  font-size: 1.2em; /* Adjusted font size */
+  font-size: 1.2em;
   line-height: 1.5;
   margin: 0 auto;
-  max-width: 800px; /* Increased max-width */
-  padding-top: 100px; /* Adjusted padding */
-  width: 90%; /* Adjusted width */
+  max-width: 800px;
+  padding-top: 100px;
+  width: 90%;
 }
 
 .offline .runner-container {
-  height: 120px; /* Adjusted height */
+  height: 120px;
   max-width: 800px;
   overflow: hidden;
   position: absolute;
-  top: 30px; /* Adjusted top position */
-  width: 40px; /* Adjusted width */
+  top: 30px;
+  width: 40px;
 }
 
 .offline .runner-canvas {
   height: 120px;
   max-width: 800px;
-  opacity: 0.9; /* Adjusted opacity */
+  opacity: 0.9;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -56,7 +58,7 @@ html, body {
 }
 
 .offline .controller {
-  background: rgba(247, 247, 247, .2); /* Adjusted background opacity */
+  background: rgba(247, 247, 247, 0.2);
   height: 100vh;
   left: 0;
   position: absolute;
@@ -66,21 +68,21 @@ html, body {
 }
 
 #offline-resources {
-  display: block; /* Set to block for visibility */
+  display: block;
 }
 
 @media (max-width: 480px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
-    float: left; /* Adjusted float property */
+    float: left;
   }
+  
   .snackbar {
-    position: fixed; /* Adjusted position */
+    position: fixed;
     left: 0;
-    bottom: 10px; /* Adjusted bottom position */
+    bottom: 10px;
     width: 100%;
-    border-radius: 5px; /* Added border-radius */
+    border-radius: 5px;
   }
 }
 
 /* Add more media queries and modifications as needed */
-
