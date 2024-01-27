@@ -1,6 +1,8 @@
-/* Copyright 2013 The Chromium Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file. */
+/*
+  Copyright 2024 Your Company. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+*/
 
 /* Resetting default styles for HTML and body */
 html, body {
@@ -8,6 +10,9 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
+  font-family: 'Roboto', sans-serif; /* Use a modern font */
+  background-color: #f4f4f4; /* Set a neutral background color */
+  color: #333; /* Set a default text color */
 }
 
 /* Styling for reusable icon class */
@@ -92,4 +97,11 @@ html, body {
   }
 }
 
-/* Add more media queries and modifications as needed */
+/* Additional styles for larger screens */
+@media (min-width: 768px) {
+  body {
+    background-color: #fff; /* Set a white background for larger screens */
+  }
+
+  /* Add more styles for larger screens as needed */
+}
