@@ -1,7 +1,4 @@
-/* Copyright 2013 The Chromium Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file. */
-
+/* Reset CSS */
 html, body {
   padding: 0;
   margin: 0;
@@ -9,11 +6,13 @@ html, body {
   height: 100%;
 }
 
+/* Common styles for icons */
 .icon {
   user-select: none;
   display: inline-block;
 }
 
+/* Online icon */
 .icon-online {
   content: -webkit-image-set(
     url(assets/default_100_percent/100-error-online.png) 1x,
@@ -22,12 +21,12 @@ html, body {
   position: relative;
 }
 
+/* Hidden class */
 .hidden {
   display: none;
 }
 
-/* Offline page */
-
+/* Offline page styles */
 .offline .interstitial-wrapper {
   color: #6b3b3b;
   font-size: 1.2em;
@@ -38,7 +37,8 @@ html, body {
   width: 90%;
 }
 
-.offline .runner-container {
+.offline .runner-container,
+.offline .runner-canvas {
   height: 120px;
   max-width: 800px;
   overflow: hidden;
@@ -48,12 +48,7 @@ html, body {
 }
 
 .offline .runner-canvas {
-  height: 120px;
-  max-width: 800px;
   opacity: 0.9;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
   z-index: 2;
 }
 
@@ -67,15 +62,19 @@ html, body {
   z-index: 1;
 }
 
+/* Offline resources */
 #offline-resources {
   display: block;
 }
 
+/* Responsive styles for small screens */
 @media (max-width: 480px) {
-  .suggested-left > #control-buttons, .suggested-right > #control-buttons {
+  .suggested-left > #control-buttons, 
+  .suggested-right > #control-buttons {
     float: left;
   }
-  
+
+  /* Snackbar styles */
   .snackbar {
     position: fixed;
     left: 0;
