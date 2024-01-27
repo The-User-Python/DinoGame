@@ -21,22 +21,12 @@ html, body {
   display: inline-block;
 }
 
-/* Online status icon with responsive image set */
-.icon-online {
-  content: -webkit-image-set(
-    url(assets/default_100_percent/100-error-online.png) 1x,
-    url(assets/default_200_percent/200-error-online.png) 2x
-  );
-  position: relative;
-}
-
 /* Utility class to hide elements */
 .hidden {
   display: none;
 }
 
 /* Styling for the offline page */
-
 .offline .interstitial-wrapper {
   color: #6b3b3b;
   font-size: 1.2em;
