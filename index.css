@@ -10,9 +10,9 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-family: 'Roboto', sans-serif; /* Use a modern font */
-  background-color: #f4f4f4; /* Set a neutral background color */
-  color: #333; /* Set a default text color */
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 /* Styling for reusable icon class */
@@ -90,7 +90,7 @@ html, body {
 /* Additional styles for larger screens */
 @media (min-width: 768px) {
   body {
-    background-color: #fff; /* Set a white background for larger screens */
+    background-color: #fff;
   }
 
   /* Add more styles for larger screens as needed */
