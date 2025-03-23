@@ -118,3 +118,10 @@ html, body {
   
   /* Add more styles for larger screens as needed */
 }
+
+/* New hover effect for buttons */
+button:hover {
+  background-color: #555; /* Darker shade for hover effect */
+  color: #fff; /* White text on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
